@@ -9,7 +9,7 @@ import {
   drinkDetailToRender,
   inProgressAction,
   loadingAction,
-  mealDetailToRender
+  mealDetailToRender,
 } from '../redux/actions';
 import { fetchRecipeDetails } from '../services/fetchAPI';
 import '../styles/RecipeInProgress.css';
