@@ -14,7 +14,7 @@ function Header(props) {
   return (
     <header className="header-container">
       <div className="icon-header">
-        <a href="https://viniciuslacerda.vercel.app/" target="_blanked">
+        <a href="/" target="_blanked">
           <img src="/chef.svg" alt="chef" />
         </a>
       </div>
