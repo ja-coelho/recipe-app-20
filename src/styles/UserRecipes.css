@@ -1,0 +1,112 @@
+.user-recipe-container {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  padding: 0 50px 106px 50px;
+  gap: 50px;
+  max-width: 1120px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.user-recipe-card {
+  width: 250px;
+  height: 300px;
+  box-shadow: 0 3px 7.5px rgb(0 0 0 / 10%);
+  border-radius: 15px;
+  border: 1px solid rgba(0,0,0,.3);
+  display: flex;
+  flex-direction: column;
+  background-color: var(--bg-color-secondary);
+}
+
+.user-recipe-image {
+  width: 100%;
+  height: 60%;
+  border-radius: 15px 15px 0 0;
+  border-bottom: 1px solid rgba(0,0,0,.3);
+
+}
+
+.user-recipe-image img {
+  width: 100%;
+  height: 100%;
+  border-radius: 15px 15px 0 0;
+}
+
+.user-recipe-description {
+  width: 100%;
+  height: 40%;
+  background-color: var(--bg-color-secondary);
+  border-radius: 0px 0px 15px 15px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  padding: 0 0 0 10px;
+}
+
+.user-recipe-title {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  height: 60px;
+}
+
+.user-recipe-title p{
+  color: #a9a9a9;
+}
+
+.user-recipe-title a {
+  align-self: center;
+  text-decoration: none;
+  border-bottom: 1px solid var(--red);
+  color: var(--dark);
+}
+
+.recipe-card-bottom {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.done-date {
+  position: relative;
+  top: -250px;
+  left: 160px;
+  width: 105px;
+  height: 35px;
+  border-radius: 5px;
+  box-shadow: var(--shadow);
+  background-image: linear-gradient(to right, #ff6363, #ea5f5f, #d65a5a, #c25656, #ae5151);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.done-date p {
+  color: white;
+}
+
+.favorite-heart {
+  filter: invert(12%) sepia(100%) saturate(6819%) hue-rotate(357deg) brightness(91%) contrast(118%);
+}
+
+.link-copied-d {
+  position: fixed;
+  top: 130px;
+  right: calc(50% - 60px);
+  width: 120px;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 5px;
+  box-shadow: var(--shadow);
+  background-image: linear-gradient(to right, #ff6363, #ea5f5f, #d65a5a, #c25656, #ae5151);
+  color: white;
+  letter-spacing: 1px;
+}
